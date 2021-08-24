@@ -1,0 +1,8 @@
+<h1> <%= name %>  </h1>
+
+<% if(hasProdcuts){ %>
+  <% for(let prod of products) { %>
+    <%=prod.title%> <%=prod.Price %>
+    <br/>
+  <% } %>
+<% } %>
